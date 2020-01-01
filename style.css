@@ -27,3 +27,12 @@ h1{
 img{
     border-radius: 50%;
 }
+/* have the picture and body always centered on page */
+.hero{
+    outline:1px solid red;
+    height:100vh; /*complete height of the window*/
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
