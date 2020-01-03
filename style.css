@@ -36,13 +36,22 @@ h1 sub:after{
     content:")";
 }
 
+section{
+    border-top:2px dashed #eee;
+    padding:50px 0; /* first number is top/bottom second number is left/right*/
+    max-width:800px;
+    margin:0 auto;
+}
+
 /* have the picture and body always centered on page */
 .hero{
-    outline:1px solid red;
     height:100vh; /*complete height of the window*/
     display:flex;
     flex-direction:column;
     justify-content:center;
+    border:0;
+    padding:0;
+
 
 }
 .hero img{
