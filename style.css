@@ -9,6 +9,9 @@
     text-decoration:inherit;
     line-height:inherit;
     color:inherit;
+    
+    
+
 }
 htm,body{
     font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -67,8 +70,6 @@ address{
     justify-content:center;
     border:0;
     padding:0;
-
-
 }
 .hero img{
     width:100%;
@@ -82,20 +83,22 @@ address{
     margin-left:auto;
     margin-right:auto;
     transition:transform 1s,box-shadow 1s;
+    
     background-image:url("images/headshot2.jpg");
     background-size:contain;
 }
 .headshot:hover{
     transform:rotate(360deg);
-    box-shadow: 0px 0px 100px 50px #fc0,
-                0px 0px 100px 20px #960 inset;
+    box-shadow: 0px 0px 100px 50px rgb(73, 3, 70),
+                0px 0px 100px 20px rgb(121, 12, 84) inset;
 }
 .headshot img{
     transition:opacity 1s;
 }
 .headshot:hover img{
-    opacity:0;
+    opacity:5;
 }
+
 .list li{
     display:inline;
     font-weight:bold;
@@ -108,7 +111,7 @@ address{
     justify-content:center;
     border-style:solid;
     border-width:10px;
-    border-color: #fff #eee
+    border-color: #fff #eee;
 }
 .blocklist > li > div{
     flex-grow:1;
