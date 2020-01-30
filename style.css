@@ -11,6 +11,7 @@
     color:inherit;
     
     
+    
 
 }
 htm,body{
@@ -19,6 +20,8 @@ htm,body{
     line-height:30px;
     color: #444;
     text-shadow: 1px 1px 0px #fff;
+    /*background-image: url("images/wallpaper.jpg");*/
+
 }
 body{
     text-align:center;
@@ -63,7 +66,7 @@ section:target h1{
 @keyframes flash{
     from{
         text-shadow:5px 5px 0px #fd6,
-                    -5px -5px 0px #fd6;
+                    -5px -5px 0px;
     }
     to{
         text-shadow:0px 0px 0px #fd6;
@@ -157,7 +160,6 @@ address{
 }
 .prose li{
     list-style-position:inside;
-    
 }
 .nav{
     width:100%;
